@@ -14,6 +14,7 @@
 		1AE670BE1B49644B00D98BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE670BD1B49644B00D98BDA /* Images.xcassets */; };
 		1AE670C11B49644B00D98BDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE670BF1B49644B00D98BDA /* LaunchScreen.xib */; };
 		1AE670CD1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE670CC1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m */; };
+		64486DE107072582EE1460A3 /* libPods-M2QuickKitLoadDataGragon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1650D5889C507F7D5CF200EE /* libPods-M2QuickKitLoadDataGragon.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1650D5889C507F7D5CF200EE /* libPods-M2QuickKitLoadDataGragon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-M2QuickKitLoadDataGragon.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE670AD1B49644B00D98BDA /* M2QuickKitLoadDataGragon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M2QuickKitLoadDataGragon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE670B11B49644B00D98BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE670B21B49644B00D98BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +42,8 @@
 		1AE670C61B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2QuickKitLoadDataGragonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE670CB1B49644C00D98BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE670CC1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2QuickKitLoadDataGragonTests.m; sourceTree = "<group>"; };
+		8CCD529EDE47F648A496F559 /* Pods-M2QuickKitLoadDataGragon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitLoadDataGragon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitLoadDataGragon/Pods-M2QuickKitLoadDataGragon.debug.xcconfig"; sourceTree = "<group>"; };
+		DD82878A93000C746054FF22 /* Pods-M2QuickKitLoadDataGragon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitLoadDataGragon.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitLoadDataGragon/Pods-M2QuickKitLoadDataGragon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64486DE107072582EE1460A3 /* libPods-M2QuickKitLoadDataGragon.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +65,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15BDC448DBD54AC543156514 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1650D5889C507F7D5CF200EE /* libPods-M2QuickKitLoadDataGragon.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1AE670A41B49644B00D98BDA = {
 			isa = PBXGroup;
 			children = (
 				1AE670AF1B49644B00D98BDA /* M2QuickKitLoadDataGragon */,
 				1AE670C91B49644C00D98BDA /* M2QuickKitLoadDataGragonTests */,
 				1AE670AE1B49644B00D98BDA /* Products */,
+				4DDD59CB105F73398E2CE18B /* Pods */,
+				15BDC448DBD54AC543156514 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,6 +134,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4DDD59CB105F73398E2CE18B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CCD529EDE47F648A496F559 /* Pods-M2QuickKitLoadDataGragon.debug.xcconfig */,
+				DD82878A93000C746054FF22 /* Pods-M2QuickKitLoadDataGragon.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AE670D01B49644C00D98BDA /* Build configuration list for PBXNativeTarget "M2QuickKitLoadDataGragon" */;
 			buildPhases = (
+				608875F99E2952956420A610 /* Check Pods Manifest.lock */,
 				1AE670A91B49644B00D98BDA /* Sources */,
 				1AE670AA1B49644B00D98BDA /* Frameworks */,
 				1AE670AB1B49644B00D98BDA /* Resources */,
+				491E11C8F8E3E9664E98A05C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -213,6 +239,39 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		491E11C8F8E3E9664E98A05C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-M2QuickKitLoadDataGragon/Pods-M2QuickKitLoadDataGragon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		608875F99E2952956420A610 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1AE670A91B49644B00D98BDA /* Sources */ = {
@@ -343,6 +402,7 @@
 		};
 		1AE670D11B49644C00D98BDA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CCD529EDE47F648A496F559 /* Pods-M2QuickKitLoadDataGragon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = M2QuickKitLoadDataGragon/Info.plist;
@@ -353,6 +413,7 @@
 		};
 		1AE670D21B49644C00D98BDA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD82878A93000C746054FF22 /* Pods-M2QuickKitLoadDataGragon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = M2QuickKitLoadDataGragon/Info.plist;
@@ -414,6 +475,7 @@
 				1AE670D21B49644C00D98BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1AE670D31B49644C00D98BDA /* Build configuration list for PBXNativeTarget "M2QuickKitLoadDataGragonTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +484,7 @@
 				1AE670D51B49644C00D98BDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
