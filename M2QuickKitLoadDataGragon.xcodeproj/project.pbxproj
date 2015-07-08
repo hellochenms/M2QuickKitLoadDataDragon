@@ -14,6 +14,17 @@
 		1AE670BE1B49644B00D98BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE670BD1B49644B00D98BDA /* Images.xcassets */; };
 		1AE670C11B49644B00D98BDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE670BF1B49644B00D98BDA /* LaunchScreen.xib */; };
 		1AE670CD1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AE670CC1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m */; };
+		1AF46D551B4D7DA0003C2D96 /* M7NoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D541B4D7DA0003C2D96 /* M7NoDataView.m */; };
+		1AF46D581B4D7E0E003C2D96 /* M2FullScreenModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D571B4D7E0E003C2D96 /* M2FullScreenModalView.m */; };
+		1AF46D5B1B4D7E25003C2D96 /* M7PlaceHolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D5A1B4D7E25003C2D96 /* M7PlaceHolderView.m */; };
+		1AF46D611B4D7E3B003C2D96 /* M2NoTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D5F1B4D7E3B003C2D96 /* M2NoTabBarController.m */; };
+		1AF46D641B4D804F003C2D96 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D631B4D804F003C2D96 /* BaseModel.m */; };
+		1AF46D6B1B4D80C6003C2D96 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D661B4D80C6003C2D96 /* NSString+Utils.m */; };
+		1AF46D6C1B4D80C6003C2D96 /* UIColor+Integer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D681B4D80C6003C2D96 /* UIColor+Integer.m */; };
+		1AF46D6D1B4D80C6003C2D96 /* UIImage+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D6A1B4D80C6003C2D96 /* UIImage+Utils.m */; };
+		1AF46D711B4D8266003C2D96 /* ServerInferfaceConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D701B4D8266003C2D96 /* ServerInferfaceConstants.m */; };
+		1AF46D741B4D8287003C2D96 /* ErrorCodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D731B4D8287003C2D96 /* ErrorCodeHelper.m */; };
+		1AF46D771B4D8306003C2D96 /* BaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF46D761B4D8306003C2D96 /* BaseRequest.m */; };
 		64486DE107072582EE1460A3 /* libPods-M2QuickKitLoadDataGragon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1650D5889C507F7D5CF200EE /* libPods-M2QuickKitLoadDataGragon.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +53,29 @@
 		1AE670C61B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = M2QuickKitLoadDataGragonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE670CB1B49644C00D98BDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE670CC1B49644C00D98BDA /* M2QuickKitLoadDataGragonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = M2QuickKitLoadDataGragonTests.m; sourceTree = "<group>"; };
+		1AF46D531B4D7DA0003C2D96 /* M7NoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7NoDataView.h; sourceTree = "<group>"; };
+		1AF46D541B4D7DA0003C2D96 /* M7NoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7NoDataView.m; sourceTree = "<group>"; };
+		1AF46D561B4D7E0E003C2D96 /* M2FullScreenModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2FullScreenModalView.h; sourceTree = "<group>"; };
+		1AF46D571B4D7E0E003C2D96 /* M2FullScreenModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2FullScreenModalView.m; sourceTree = "<group>"; };
+		1AF46D591B4D7E25003C2D96 /* M7PlaceHolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M7PlaceHolderView.h; sourceTree = "<group>"; };
+		1AF46D5A1B4D7E25003C2D96 /* M7PlaceHolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M7PlaceHolderView.m; sourceTree = "<group>"; };
+		1AF46D5E1B4D7E3B003C2D96 /* M2NoTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2NoTabBarController.h; sourceTree = "<group>"; };
+		1AF46D5F1B4D7E3B003C2D96 /* M2NoTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2NoTabBarController.m; sourceTree = "<group>"; };
+		1AF46D621B4D804F003C2D96 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		1AF46D631B4D804F003C2D96 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		1AF46D651B4D80C6003C2D96 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		1AF46D661B4D80C6003C2D96 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		1AF46D671B4D80C6003C2D96 /* UIColor+Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Integer.h"; sourceTree = "<group>"; };
+		1AF46D681B4D80C6003C2D96 /* UIColor+Integer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Integer.m"; sourceTree = "<group>"; };
+		1AF46D691B4D80C6003C2D96 /* UIImage+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Utils.h"; sourceTree = "<group>"; };
+		1AF46D6A1B4D80C6003C2D96 /* UIImage+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Utils.m"; sourceTree = "<group>"; };
+		1AF46D6E1B4D80DD003C2D96 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1AF46D6F1B4D8266003C2D96 /* ServerInferfaceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerInferfaceConstants.h; sourceTree = "<group>"; };
+		1AF46D701B4D8266003C2D96 /* ServerInferfaceConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerInferfaceConstants.m; sourceTree = "<group>"; };
+		1AF46D721B4D8287003C2D96 /* ErrorCodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ErrorCodeHelper.h; sourceTree = "<group>"; };
+		1AF46D731B4D8287003C2D96 /* ErrorCodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ErrorCodeHelper.m; sourceTree = "<group>"; };
+		1AF46D751B4D8306003C2D96 /* BaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRequest.h; sourceTree = "<group>"; };
+		1AF46D761B4D8306003C2D96 /* BaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRequest.m; sourceTree = "<group>"; };
 		8CCD529EDE47F648A496F559 /* Pods-M2QuickKitLoadDataGragon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitLoadDataGragon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitLoadDataGragon/Pods-M2QuickKitLoadDataGragon.debug.xcconfig"; sourceTree = "<group>"; };
 		DD82878A93000C746054FF22 /* Pods-M2QuickKitLoadDataGragon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-M2QuickKitLoadDataGragon.release.xcconfig"; path = "Pods/Target Support Files/Pods-M2QuickKitLoadDataGragon/Pods-M2QuickKitLoadDataGragon.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,11 +132,17 @@
 			children = (
 				1AE670B41B49644B00D98BDA /* AppDelegate.h */,
 				1AE670B51B49644B00D98BDA /* AppDelegate.m */,
+				1AE670BA1B49644B00D98BDA /* Main.storyboard */,
 				1AE670B71B49644B00D98BDA /* ViewController.h */,
 				1AE670B81B49644B00D98BDA /* ViewController.m */,
-				1AE670BA1B49644B00D98BDA /* Main.storyboard */,
-				1AE670BD1B49644B00D98BDA /* Images.xcassets */,
 				1AE670BF1B49644B00D98BDA /* LaunchScreen.xib */,
+				1AF46D4E1B4D7CB9003C2D96 /* UILogic */,
+				1AF46D501B4D7CFF003C2D96 /* UICommon */,
+				1AF46D521B4D7D32003C2D96 /* UIUtils */,
+				1AF46D4C1B4D7CB9003C2D96 /* Model */,
+				1AF46D4D1B4D7CB9003C2D96 /* ServerInterface */,
+				1AF46D4F1B4D7CFF003C2D96 /* Category */,
+				1AE670BD1B49644B00D98BDA /* Images.xcassets */,
 				1AE670B01B49644B00D98BDA /* Supporting Files */,
 			);
 			path = M2QuickKitLoadDataGragon;
@@ -113,6 +153,7 @@
 			children = (
 				1AE670B11B49644B00D98BDA /* Info.plist */,
 				1AE670B21B49644B00D98BDA /* main.m */,
+				1AF46D6E1B4D80DD003C2D96 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,6 +173,76 @@
 				1AE670CB1B49644C00D98BDA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AF46D4C1B4D7CB9003C2D96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1AF46D621B4D804F003C2D96 /* BaseModel.h */,
+				1AF46D631B4D804F003C2D96 /* BaseModel.m */,
+			);
+			name = Model;
+			path = Classes/Model;
+			sourceTree = "<group>";
+		};
+		1AF46D4D1B4D7CB9003C2D96 /* ServerInterface */ = {
+			isa = PBXGroup;
+			children = (
+				1AF46D6F1B4D8266003C2D96 /* ServerInferfaceConstants.h */,
+				1AF46D701B4D8266003C2D96 /* ServerInferfaceConstants.m */,
+				1AF46D751B4D8306003C2D96 /* BaseRequest.h */,
+				1AF46D761B4D8306003C2D96 /* BaseRequest.m */,
+				1AF46D721B4D8287003C2D96 /* ErrorCodeHelper.h */,
+				1AF46D731B4D8287003C2D96 /* ErrorCodeHelper.m */,
+			);
+			name = ServerInterface;
+			path = Classes/ServerInterface;
+			sourceTree = "<group>";
+		};
+		1AF46D4E1B4D7CB9003C2D96 /* UILogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UILogic;
+			path = Classes/UILogic;
+			sourceTree = "<group>";
+		};
+		1AF46D4F1B4D7CFF003C2D96 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1AF46D651B4D80C6003C2D96 /* NSString+Utils.h */,
+				1AF46D661B4D80C6003C2D96 /* NSString+Utils.m */,
+				1AF46D671B4D80C6003C2D96 /* UIColor+Integer.h */,
+				1AF46D681B4D80C6003C2D96 /* UIColor+Integer.m */,
+				1AF46D691B4D80C6003C2D96 /* UIImage+Utils.h */,
+				1AF46D6A1B4D80C6003C2D96 /* UIImage+Utils.m */,
+			);
+			name = Category;
+			path = Classes/Category;
+			sourceTree = "<group>";
+		};
+		1AF46D501B4D7CFF003C2D96 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				1AF46D5E1B4D7E3B003C2D96 /* M2NoTabBarController.h */,
+				1AF46D5F1B4D7E3B003C2D96 /* M2NoTabBarController.m */,
+				1AF46D561B4D7E0E003C2D96 /* M2FullScreenModalView.h */,
+				1AF46D571B4D7E0E003C2D96 /* M2FullScreenModalView.m */,
+				1AF46D531B4D7DA0003C2D96 /* M7NoDataView.h */,
+				1AF46D541B4D7DA0003C2D96 /* M7NoDataView.m */,
+				1AF46D591B4D7E25003C2D96 /* M7PlaceHolderView.h */,
+				1AF46D5A1B4D7E25003C2D96 /* M7PlaceHolderView.m */,
+			);
+			name = UICommon;
+			path = Classes/UICommon;
+			sourceTree = "<group>";
+		};
+		1AF46D521B4D7D32003C2D96 /* UIUtils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = UIUtils;
+			path = Classes/UIUtils;
 			sourceTree = "<group>";
 		};
 		4DDD59CB105F73398E2CE18B /* Pods */ = {
@@ -278,9 +389,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF46D771B4D8306003C2D96 /* BaseRequest.m in Sources */,
+				1AF46D641B4D804F003C2D96 /* BaseModel.m in Sources */,
+				1AF46D581B4D7E0E003C2D96 /* M2FullScreenModalView.m in Sources */,
+				1AF46D6C1B4D80C6003C2D96 /* UIColor+Integer.m in Sources */,
+				1AF46D741B4D8287003C2D96 /* ErrorCodeHelper.m in Sources */,
 				1AE670B91B49644B00D98BDA /* ViewController.m in Sources */,
 				1AE670B61B49644B00D98BDA /* AppDelegate.m in Sources */,
+				1AF46D6B1B4D80C6003C2D96 /* NSString+Utils.m in Sources */,
 				1AE670B31B49644B00D98BDA /* main.m in Sources */,
+				1AF46D6D1B4D80C6003C2D96 /* UIImage+Utils.m in Sources */,
+				1AF46D711B4D8266003C2D96 /* ServerInferfaceConstants.m in Sources */,
+				1AF46D611B4D7E3B003C2D96 /* M2NoTabBarController.m in Sources */,
+				1AF46D5B1B4D7E25003C2D96 /* M7PlaceHolderView.m in Sources */,
+				1AF46D551B4D7DA0003C2D96 /* M7NoDataView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +527,8 @@
 			baseConfigurationReference = 8CCD529EDE47F648A496F559 /* Pods-M2QuickKitLoadDataGragon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = M2QuickKitLoadDataGragon/PrefixHeader.pch;
 				INFOPLIST_FILE = M2QuickKitLoadDataGragon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +540,8 @@
 			baseConfigurationReference = DD82878A93000C746054FF22 /* Pods-M2QuickKitLoadDataGragon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = M2QuickKitLoadDataGragon/PrefixHeader.pch;
 				INFOPLIST_FILE = M2QuickKitLoadDataGragon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
